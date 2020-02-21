@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        helpText: 'This is some helpful text.',
+        helpText: 'The easiest way to search is by your zip code. You can also try just entering your city but your city might be found in other places in the world.',
         name: 'Casey Livingood'
     })
 })
