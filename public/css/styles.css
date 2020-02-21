@@ -7,6 +7,12 @@ header a:hover {
 header a {
   color: #888888 !important; }
 
+.hide {
+  display: none; }
+
+#auto-dropdown a:hover {
+  background-color: #00336a; }
+
 @media (max-width: 576px) {
   header {
     min-width: 100% !important; }
