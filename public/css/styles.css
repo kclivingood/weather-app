@@ -1,0 +1,17 @@
+body {
+  color: #333333 !important;
+  min-height: 100vh; }
+
+header a:hover {
+  text-decoration: none !important; }
+header a {
+  color: #888888 !important; }
+
+@media (max-width: 576px) {
+  header {
+    min-width: 100% !important; }
+    header a {
+      font-size: 0.9rem; }
+
+  p {
+    font-size: 0.8rem; } }
