@@ -64,6 +64,7 @@ search.addEventListener('input', (e) => {
                     }
 
                     dropdownEl.classList.remove('hide')
+                }
             })
         })
 
