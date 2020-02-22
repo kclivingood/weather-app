@@ -13,7 +13,9 @@ const forecast = (lat, long, callback) => {
         } else if (forecastError) {
             callback('Unable to find location!', undefined)
         } else {
-            callback(undefined, `${data.summary} It is currently ${currently.temperature} degrees Fahrenheit out.There's a high temperature of ${data.temperatureHigh} and a low temperature of ${data.temperatureLow}.There is a ${currently.precipProbability}% chance of rain.`)
+            callback(undefined, `${data.summary} It is currently ${Math.round(currently.temperature)} degrees Fahrenheit out.    
+            There's a high temperature of ${Math.round(data.temperatureHigh)} and a low temperature of ${Math.round(data.temperatureLow)}. 
+            There is a ${currently.precipProbability}% chance of rain.`)
         }
     })
 }
